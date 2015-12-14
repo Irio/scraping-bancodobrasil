@@ -10,8 +10,6 @@ module BancoDoBrasil
         profile = Selenium::WebDriver::Firefox::Profile.new
         profile['extensions.blocklist.enabled'] = false
         profile['plugin.state.java'] = 2
-        profile['browser.download.folderList'] = 
-        profile['plugin.state.java'] = 2
         Capybara::Selenium::Driver.new(app, browser: :firefox, profile: profile)
       end
 
