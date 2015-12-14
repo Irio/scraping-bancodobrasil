@@ -1,0 +1,4 @@
+.gbasoptBB
+*.log
+/data
+/config/credentials.yml
